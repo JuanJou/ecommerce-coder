@@ -1,3 +1,4 @@
+import { CartIcon } from "./CartIcon";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
@@ -14,7 +15,7 @@ export function NavBar() {
         </li>
         <li>
           <NavLink to="/carrito" activeClassName="activeLink">
-            Carrito
+            <CartIcon />
           </NavLink>
           <hr />
         </li>
